@@ -1,0 +1,9 @@
+<div class="col col-4 item">
+  <figure>
+    <a href="{{.Get `url` }}" target="_blank">
+    <img alt="Baseline" height="{{.Get `size`}}" src="{{.Get `logo` | relURL }}" width="{{.Get `size`}}">
+    </a>
+  </figure>
+  <h4>{{.Get "name" }}</h4>
+  <p> {{.Get "description" }}</p>
+</div>

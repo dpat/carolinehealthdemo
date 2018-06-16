@@ -1,0 +1,24 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main" >
+  <div id="spacer1">
+  </div>
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+  </div>
+  <div id="spacer2">
+  </div>
+
+  <div id="action-buttons">
+    <a class="button outline big" href="/home" onclick="_gaq.push(['_trackEvent', 'kube', 'plans']);">View Your Plans</a>
+  </div>
+</div>
+
+<div id="spacer3">
+</div>
+
+
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

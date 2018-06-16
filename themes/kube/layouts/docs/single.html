@@ -1,0 +1,86 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+  <div id="main">
+    <div id="hero">
+      <h1> Telemedicine </h1>
+      <p class="hero-lead">
+           Raymond James is proud to offer the services listed below
+      </p>
+    <div id="spacer1">
+    </div>
+    </div>
+    <div id="components">
+    <div class="row gutters">
+    <div class="col col-4 item">
+      <figure>
+        <a href="https://www.mdlive.com/" target="_blank">
+        <img alt="Baseline" height="170" src="{{ "/img/mdlive.png" | relURL }}" width="170">
+        </a>
+      </figure>
+      <div id="spacersmall5">
+      </div>
+      <h3>MDLive</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+    <div class="col col-4 item">
+      <figure>
+        <a href="https://www.teladoc.com/" target="_blank">
+        <img alt="Baseline" height="150" src="{{ "/img/teladoc.png" | relURL }}" width="150">
+        </a>
+      </figure>
+
+      <h3>Teladoc</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+    <div class="col col-4 item">
+      <figure>
+        <a href="https://evisit.com/" target="_blank">
+        <img alt="Baseline" height="150" src="{{ "/img/evisit.png" | relURL }}" width="150">
+        </a>
+      </figure>
+      <h3>eVisit</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+    <div class="col col-4 item">
+      <figure>
+        <a href="https://www.compsych.com/" target="_blank">
+        <img alt="Baseline" height="150" src="{{ "/img/compsych.png" | relURL }}" width="150">
+        </a>
+      </figure>
+      <h3>ComPsych</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+    <div class="col col-4 item">
+      <figure>
+        <a href="http://www.healthadvocate.com/site/" target="_blank">
+        <img alt="Baseline" height="175" src="{{ "/img/healthadvocate.jpg" | relURL }}" width="175">
+        </a>
+      </figure>
+      <div id="spacer1">
+      </div>
+      <h3>HealthAdvocate</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+    <div class="col col-4 item">
+      <figure>
+        <a href="https://www.globalfit.com/" target="_blank">
+        <img alt="Baseline" height="150" src="{{ "/img/globalfit.png" | relURL }}" width="150">
+        </a>
+      </figure>
+      <h3>GlobalFit</h3>
+      <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+    </div>
+
+    {{ .Content}}
+<!-- Inject script tag in this template  -->
+    {{if .Params.script}}
+     {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
+    {{ partial (string $script) .}}
+    {{end }}
+    </div>
+    </div>
+    <div id="spacer4">
+    </div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
