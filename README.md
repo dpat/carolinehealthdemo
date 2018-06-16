@@ -6,7 +6,7 @@ TODO:
 
 - Remove and trim excess code
 - Correct syntax and structure of the project
-- Change liscencing
+- Change licencing
 - Potentially add a contact page
 
 STRETCH:
