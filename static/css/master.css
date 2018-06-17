@@ -6,8 +6,7 @@ body {
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
-        height: 768px;
+        min-height: 768px;
   font-family: Lato, Arial, sans-serif; }
 
 h1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
