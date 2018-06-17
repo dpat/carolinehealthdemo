@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Welcome"
-theme = "chealthdemo"
+theme = "chdemo"
 description = "Caroline Health demo page"
 Paginate = 4
 [Params]
