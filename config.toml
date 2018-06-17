@@ -1,4 +1,4 @@
-baseURL = "https://test.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Welcome"
 description = "Caroline Health demo page"

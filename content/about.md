@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2018-06-15T14:49:08-06:00
-draft: true
+draft: false
 ---
 <div style="float:center; display: flex; align-items:center; padding: 0; margin:0; padding-top:12px; justify-content:center;">
 <span style="float:left; width:150px;; ">
