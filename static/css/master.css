@@ -1129,6 +1129,14 @@ tr.border-none td {
     display: block;
     margin: 16px 0; }
 
+  #hero1 {
+    padding-top: 0;
+    padding-bottom: 56px;
+    text-align: center; }
+  #hero {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    text-align: center; }
   #hero {
     margin-top: 32px;
     padding-top: 0;
