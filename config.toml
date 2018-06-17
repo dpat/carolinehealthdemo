@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://chealthdemo/"
 languageCode = "en-us"
 title = "Welcome"
 theme = "chdemo"
