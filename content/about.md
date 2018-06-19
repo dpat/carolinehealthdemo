@@ -9,7 +9,7 @@ draft: false
 </span>
 <span style="float:left; width: 400px; text-align:center;">
 <h3 style="text-align: center;"> Caroline Health </h3>
-<p> Caroline Health is a service company that curates and promotes digital healthcare delivery options in order to drive higher employee engagement and thereby save both employer and employee time and money. </p>
+<p> Caroline Health curates and promotes digital healthcare options for the digital age </p>
 </div>
 </span>
 
