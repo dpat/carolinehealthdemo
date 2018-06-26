@@ -15,7 +15,7 @@ Paginate = 4
     weight = -102
     url = "/benefits/all/"
 [[menu.main]]
-    name = "PDF"
+    name = "Benefits Packet"
     weight = -101
     url = "http://www.raymondjames.com/about/openenrollment/2018_benefits%20guide_1.9.17.pdf"
 [[menu.main]]
